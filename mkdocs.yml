@@ -1,9 +1,32 @@
 site_name: TI Documentation
-site_description: Base de conocimiento TI
+site_description: Documentación TI - SilHer Corp.
 site_author: José Castro
 
 theme:
   name: material
+
+  features:
+    - navigation.tabs
+    - navigation.sections
+    - navigation.expand
+    - search.highlight
+    - search.suggest
+    - content.code.copy
+
+  palette:
+    - scheme: default
+      primary: blue
+      accent: indigo
+      toggle:
+        icon: material/weather-night
+        name: Modo oscuro
+
+    - scheme: slate
+      primary: blue
+      accent: indigo
+      toggle:
+        icon: material/weather-sunny
+        name: Modo claro
 
 nav:
   - Inicio: index.md
@@ -16,3 +39,6 @@ nav:
 
   - KURA:
       - Facturas Estado 1: kura/facturas-estado-1.md
+
+plugins:
+  - search
