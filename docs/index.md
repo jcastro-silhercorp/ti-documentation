@@ -1,3 +1,23 @@
+<!-- # Welcome to MkDocs
+
+For full documentation visit [mkdocs.org](https://www.mkdocs.org).
+
+## Commands
+
+* `mkdocs new [dir-name]` - Create a new project.
+* `mkdocs serve` - Start the live-reloading docs server.
+* `mkdocs build` - Build the documentation site.
+* `mkdocs -h` - Print help message and exit.
+
+## Project layout
+
+    mkdocs.yml    # The configuration file.
+    docs/
+        index.md  # The documentation homepage.
+        ...       # Other markdown pages, images and other files. -->
+
+
+# Bienvenido
 # 📚 TI Documentation
 
 Repositorio centralizado de documentación técnica y operativa de SilHer Corp.
@@ -34,7 +54,7 @@ Centralizar procedimientos técnicos, troubleshooting, validaciones operativas, 
 
 ## SIGNIA
 
-- [Proceso de baja de sistemas](docs/signia/baja-sistemas.md)
+- [Proceso de baja de sistemas](signia/baja-sistemas.md)
 - [Error 2128 - ResponseCode](docs/signia/error-2128-responsecode.md)
 - [Otros casos](docs/signia/otros-casos.md)
 
@@ -42,7 +62,7 @@ Centralizar procedimientos técnicos, troubleshooting, validaciones operativas, 
 
 ## HREPS
 
-- [Cuadre de facturas](docs/hreps/cuadre-facturas.md)
+- [Cuadre de facturas](hreps/cuadre-facturas.md)
 - [Anulación de retenciones](docs/hreps/anulacion-retenciones.md)
 - [Descuadre de facturas - Error 3307](docs/hreps/descuadre-facturas-3307.md)
 - [Proceso de baja de sistemas](docs/hreps/baja-sistemas.md)
@@ -52,7 +72,7 @@ Centralizar procedimientos técnicos, troubleshooting, validaciones operativas, 
 
 ## KURA
 
-- [Facturas en estado 1](docs/kura/facturas-estado-1.md)
+- [Facturas en estado 1](kura/facturas-estado-1.md)
 - [Notas de crédito estado 9](docs/kura/notas-credito-estado-9.md)
 - [Proceso de baja de sistemas](docs/kura/baja-sistemas.md)
 - [Eliminación de trabajadores](docs/kura/eliminacion-trabajadores.md)

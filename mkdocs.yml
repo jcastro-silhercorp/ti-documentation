@@ -1,0 +1,18 @@
+site_name: TI Documentation
+site_description: Base de conocimiento TI
+site_author: José Castro
+
+theme:
+  name: material
+
+nav:
+  - Inicio: index.md
+
+  - SIGNIA:
+      - Baja de Sistemas: signia/baja-sistemas.md
+
+  - HREPS:
+      - Cuadre de Facturas: hreps/cuadre-facturas.md
+
+  - KURA:
+      - Facturas Estado 1: kura/facturas-estado-1.md
